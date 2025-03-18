@@ -10,3 +10,11 @@ the functions lru_victim_llc() and lru_update_llc() are used to implement way pa
 #### **2) LLC MPKI comparision**
 #### **3) LLC SEPKI comparision**
 
+## **2A:Static set partitioning**
+### **Approach**
+There are 4096 LLC sets in the dualcore out-of-order processor used in Champsim.
+
+### **Observations**
+#### **1) Normalized IPC**
+#### **2) LLC MPKI comparision**
+#### **3) LLC SEPKI comparision**
