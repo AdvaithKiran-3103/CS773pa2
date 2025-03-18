@@ -18,3 +18,12 @@ There are 4096 LLC sets in the dualcore out-of-order processor used in Champsim.
 #### **1) Normalized IPC**
 #### **2) LLC MPKI comparision**
 #### **3) LLC SEPKI comparision**
+
+## **2B:Dynamic set partitioning**
+### **Approach**
+There are 4096 LLC sets in the dualcore out-of-order processor used in Champsim.
+
+### **Observations**
+#### **1) Normalized IPC**
+#### **2) LLC MPKI comparision**
+#### **3) LLC SEPKI comparision**
