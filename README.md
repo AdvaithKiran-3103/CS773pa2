@@ -1,1 +1,2 @@
-# **Implementing 2-way LLC partitioning in Champsim**
+# **Implementing LLC partitioning on Champsim**
+## **1A 2-way partitioning**
