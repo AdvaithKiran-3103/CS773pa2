@@ -14,7 +14,7 @@ the functions lru_victim_llc() and lru_update_llc() are used to implement way pa
 
 ## **2A:Static set partitioning**
 ### **Approach**
-There are 4096 LLC sets in the dualcore out-of-order processor used in Champsim.
+There are 4096 LLC sets in the dualcore out-of-order processor used in Champsim.Here we modified get_set function and gave cpu as parameter.based on cpu number it will calculate offset and seperates set for 2 cpus
 
 ### **Observations**
 #### **1) Normalized IPC**
@@ -23,8 +23,7 @@ There are 4096 LLC sets in the dualcore out-of-order processor used in Champsim.
 
 ## **2B:Dynamic set partitioning**
 ### **Approach**
-There are 4096 LLC sets in the dualcore out-of-order processor used in Champsim.
-
+There are 4096 LLC sets in the dualcore out-of-order processor used in Champsim.Here we are observing total access count and after a fixed number of accesses,we are checking the core misses of each cpu and based on the ratio we are allocating sets to that cpu
 ### **Observations**
 #### **1) Normalized IPC**
 #### **2) LLC MPKI comparision**
